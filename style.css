@@ -2,7 +2,10 @@
     background-color: transparent;
     width: 700px;
     height: 500px;
-    perspective: 1000px;
+    perspective: 1498px;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card-front, .card-back {
     position: absolute;
@@ -19,8 +22,8 @@
     transform-style: preserve-3d;
 }
 .card-back {
-    background-color: #A6C0CD;
-    color: black;
+    background-color: #0d46b6;
+    color: white;
     transform: rotateY(180deg);
 }
 .card-front{
@@ -35,4 +38,7 @@ main{
 }
 .rubrik{
     font-size: 2rem;
+}
+body{
+    background-color: #051b80;
 }
