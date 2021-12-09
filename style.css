@@ -35,8 +35,13 @@
 .flip-card:hover .inner-card {
     transform: rotateY(180deg);
 }
+.text{
+    font-family: 'Vollkorn', serif;
+}
 .stamp{
-    
+    float: right;
+    padding-right: 5%;
+    padding-top: 5%;
 }
 main{
     display: flex;
