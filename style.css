@@ -1,10 +1,12 @@
 .flip-card {
     background-color: transparent;
-    width: 700px;
-    height: 500px;
     perspective: 1498px;
-    margin-top: 3%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    flex-direction: row;
 }
 .card-front, .card-back {
     position: absolute;
@@ -14,10 +16,9 @@
 }
 .inner-card {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 700px;
+    height: 500px;
     text-align: center;
-    margin-left: 5%;
     transition: transform 1s;
     transform-style: preserve-3d;
 }
@@ -35,27 +36,14 @@
 .flip-card:hover .inner-card {
     transform: rotateY(180deg);
 }
-.text{
-    font-family: 'Vollkorn', serif;
-}
-.text2{
+.endtext{
     font-family: 'Vollkorn', serif;
     font-size: 20px;
-}
-.text3{
-    font-family: 'Vollkorn', serif;
+    align-items: flex-end;
 }
 .stamp{
     height: 80px;
     width: 80px;
-    float: right;
-    padding-right: 5%;
-    padding-top: 5%;
-    margin-left: 0px;
-}
-.front-front{
-    width:700px;
-    height:500px;
 }
 .rubrik{
     font-size: 2rem;
