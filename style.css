@@ -29,7 +29,6 @@ body{
     transform-style: preserve-3d;
 }
 .card-back {
-    font-family: 'Vollkorn', serif;
     position: absolute;
     background-color: #0d46b6;
     color: white;
@@ -45,10 +44,16 @@ body{
 .endtext{
     font-family: 'Vollkorn', serif;
     font-size: 20px;
+    float: right;
+    padding-right: 4rem;
+    padding-top: 35%;
 }
 .stamp{
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
+    float: right;
+    padding-top: 2rem;
+    padding-right: 2rem;
 }
 .rubrik{
     font-size: 2rem;
