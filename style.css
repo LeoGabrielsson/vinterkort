@@ -47,10 +47,16 @@
     font-family: 'Vollkorn', serif;
 }
 .stamp{
+    height: 80px;
+    width: 80px;
     float: right;
     padding-right: 5%;
     padding-top: 5%;
     margin-left: 0px;
+}
+.front-front{
+    width:700px;
+    height:500px;
 }
 main{
     display: flex;
