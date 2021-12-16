@@ -1,12 +1,18 @@
-.flip-card {
-    background-color: transparent;
-    perspective: 1498px;
+html, body{
+    height: 100%;
+}
+body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: auto;
-    width: auto;
-    flex-direction: row;
+    background-color: #051b80;
+}
+.flip-card {
+    background-color: transparent;
+    perspective: 1498px;
+    height: 500px;
+    width: 700px;
+    
 }
 .card-front, .card-back {
     position: absolute;
@@ -16,8 +22,8 @@
 }
 .inner-card {
     position: relative;
-    width: 700px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     text-align: center;
     transition: transform 1s;
     transform-style: preserve-3d;
@@ -39,7 +45,6 @@
 .endtext{
     font-family: 'Vollkorn', serif;
     font-size: 20px;
-    align-items: flex-end;
 }
 .stamp{
     height: 80px;
@@ -47,7 +52,4 @@
 }
 .rubrik{
     font-size: 2rem;
-}
-body{
-    background-color: #051b80;
 }
